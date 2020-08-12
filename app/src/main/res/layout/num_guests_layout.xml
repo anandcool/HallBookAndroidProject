@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spinner_rounded">
+
+    <TextView
+        android:id="@+id/crowd_text"
+        style="?android:attr/spinnerItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/spinner_occasion"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+        />
+
+
+
+</LinearLayout>

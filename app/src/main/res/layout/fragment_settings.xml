@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:id="@+id/hello"
+    android:background="@drawable/profilebg"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-medium"
+    android:gravity="center"
+    android:text="@string/edit_profile_title"
+    android:textColor="@color/black"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:hint="@string/prompt_name"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/fullWhite" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/fullWhite" />
+
+
+    <EditText
+        android:id="@+id/edit_cPass"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:hint="@string/prompt_cpass"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/fullWhite" />
+
+    <EditText
+        android:id="@+id/edit_pno"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:hint="@string/prompt_pno"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/fullWhite" />
+
+    <Button
+        android:id="@+id/edit_saveDetailsBtn"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/signup_btn"
+        android:elevation="5dp"
+        android:text="@string/edit_profile_button"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

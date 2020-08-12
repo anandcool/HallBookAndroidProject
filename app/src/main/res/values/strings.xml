@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Hall Booking</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_signup">Create Your Account</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cpass">Confirm Password</string>
+    <string name="prompt_pno">Phone Number</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_up">Signup</string>
+    <string name="terms">By Signing In to our app , you agree to our Terms and Conditions</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="label_city">"Select your city"</string>
+    <string name="button_next">Next</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_location">Change Location</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="home_rating">Rating: </string>
+
+    <string name="menu_gallery">My Bookings</string>
+    <string name="menu_slideshow">Settings</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!--    Hall item layout strings-->
+    <string name="hall_name">Surya Grand Banquet Hall</string>
+    <string name="hall_rating">Rating: </string>
+    <string name="hall_address">near Palam, Dattaram marg, Dwarka Flyover, Sector 7 Dwarka, New Delhi, Delhi 110045</string>
+    <string name="hall_description">Venue Expert Notes
+Surya Grand Banquet is one of the premium and trustworthy banquets in Dwarka. The caterers here keep in mind that food is the most important aspect of events and hence serve you with the best quality. The venue has eye-catching interiors with an aesthetic backdrop that makes it the first choice of the locals here. They have a beautiful lawn that is one of the major attractions at the venue.
+Summary
+The Surya Grand Banquet located in Dwarka, Delhi has Cocktail Venues, Banquet Halls and Wedding Lawns. Lawn can accommodate upto 650 guests in seating and 1000 guests in floating. Hall 2 can accommodate upto 250 guests in seating and 400 guests in floating. Hall 1 can accommodate upto 200 guests in seating and 300 guests in floating.
+Vegetarian and Non Vegetarian food is served at this venue. Features of this wedding venues are : Food provided by the venue , Non-Veg allowed at the venue , Alcohol allowed at the venue , Outside alcohol allowed at the venue , Halls are air Conditioned , Ample parking , Baarat allowed , Hawan allowed , Overnight wedding allowed , Decor provided by the venue , Packages starts at Rs 1,000 per plate for vegetarian menu and at Rs 1,250 for non veg menu.
+Call weddingz.in at +911140140801 for best price guarantee and hassle free booking of Surya Grand Banquet. You can also get venue contact details and photos at weddingz.in </string>
+
+    <!--Booking activity layout strings-->
+    <string name="spinner_occasion">Select the Occasion</string>
+    <string name="label_occasion">Occasion</string>
+    <string name="calendar_from">From</string>
+    <string name="calendar_to">To</string>
+    <string name="label_guests">Number of Guests</string>
+    <string name="label_food">Food</string>
+    <string name="checkbox_label1">VEGETARIAN</string>
+    <string name="checkbox_label2">NON-VEGETARIAN</string>
+    <string name="button_price">Calculate Price</string>
+    <string name="label_price">Price :   Rs 0.00</string>
+    <string name="button_book">Book Now</string>
+
+    <!--    Custom Message Dialog Box-->
+    <string name="dialog_title">Success</string>
+    <string name="dialog_description">You have successfully booked the hall.</string>
+    <string name="dialog_footer">DONE!!!</string>
+
+    <!--   Settings Fragment -->
+    <!--   Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_button">Save Details</string>
+
+    <!--  Bookings Fragment  -->
+    <string name="card_title">Booking Confirmed</string>
+    <string name="card_hall_name">Golden Farm House</string>
+    <string name="card_occasion">Wedding</string>
+    <string name="card_dates">17/May to 22/May</string>
+    <string name="card_price">Rs 17690</string>
+    <string name="card_cancel_button">Cancel</string>
+
+</resources>
